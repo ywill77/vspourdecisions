@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>V's Pour Decisions | Mobile Bartending</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="hero">
+  <h1>V’s Pour Decisions</h1>
+  <p>Luxury Mobile Bartending for Unforgettable Events</p>
+
+  <a href="#booking" class="btn">Book Your Event</a>
+</div>
 
 <style>
+  .hero {
+  height: 90vh;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)),
+    url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
   body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -163,7 +176,7 @@ textarea {
 </div>
 
 <!-- PRICING -->
-<div class="section">
+<div class="section" id="booking">
   <h2>Services & Packages</h2>
   <img src="pricing.png" class="pricing-img">
 </div>
